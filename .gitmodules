@@ -1,3 +1,6 @@
 [submodule "jenkins"]
-	path = jenkins
+	path = roles/jenkins
 	url = git@github.com:geerlingguy/ansible-role-jenkins.git
+[submodule "roles/oracle-java"]
+	path = roles/oracle-java
+	url = git@github.com:wtanaka/ansible-role-oracle-java.git
